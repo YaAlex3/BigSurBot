@@ -139,7 +139,7 @@ async def generate_credentials(gdrive):
                 "Error: Authentication failed\n\n"
                 "Status : BAD\n"
                 "Reason : Please get your G_DRIVE_DATA "
-                "[here](https://telegra.ph/How-To-Setup-Google-Drive-04-03)"
+                "[here](https://telegra.ph/How-To-Setup-Google-Drive-04-03)."
             )
             return False
         configs = {
