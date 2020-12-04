@@ -1131,7 +1131,7 @@ async def google_drive(gdrive):
     if uri and not gdrive.reply_to_msg_id:
         for dl in uri:
             try:
-                reply += await download(gdrive, service, dl)
+                reply = await download(gdrive, service, dl)
             except Exception as e:
                 if " not found" in str(e) or "'file'" in str(e):
                     reply += (
