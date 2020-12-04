@@ -98,7 +98,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "BigSur bot repository: [tap here](https://github.com/pratyakshm/BigSurBot). \n" "Easy deploy: [tap here](https://bit.ly/2PR9PRp)."
+        "BigSur bot repository: [tap here](https://github.com/YaAlex3/BigSurBot). \n" "Easy deploy: [tap here](https://bit.ly/2PR9PRp)."
     )
 
 
