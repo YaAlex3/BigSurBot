@@ -136,7 +136,7 @@ async def generate_credentials(gdrive):
         """ - Only for old user - """
         if G_DRIVE_CLIENT_ID is None and G_DRIVE_CLIENT_SECRET is None:
             await gdrive.edit(
-                "[Error: Authentication failed]\n\n"
+                "Error: Authentication failed\n\n"
                 "Status : BAD\n"
                 "Reason : Please get your G_DRIVE_DATA "
                 "[here](https://telegra.ph/How-To-Setup-Google-Drive-04-03)"
